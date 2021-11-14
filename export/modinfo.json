@@ -1,0 +1,34 @@
+{
+	"identifier": "com.pa.daedelus.federat",
+	"display_name": "The Federation - Support Faction Addon",
+	"description": "Adds a support faction to the game, adding an alternate tech tree that any faction can enter.",
+	"author": "Team DAEDALUS, Quildtide, Taiga",
+	"authors": [
+		"Team DAEDALUS",
+		"Quildtide",
+		"Taiga"
+	],
+	"signature": "not yet implemented",
+	"forum": "",
+	"priority": 88,
+	"icon": "https://raw.githubusercontent.com/DAEDALUS-Modding/Section-17/main/icon.jpg",
+	"titansOnly": true,
+	"category": [
+		"addon",
+		"unit",
+		"expansion",
+		"titans"
+	],
+	"scenes": {
+		"shared_build": [
+			"coui://ui/mods/com.pa.daedalus.federat/shared_build.js"
+		],
+		"icon_atlas": [
+			"coui://ui/mods/com.pa.daedalus.federat/icon_atlas.js"
+		]
+	},
+	"context": "server",
+	"date": "2021-11-14",
+	"build": "115958",
+	"version": "0.1.0"
+}

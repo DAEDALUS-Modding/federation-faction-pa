@@ -1,0 +1,6 @@
+gen/**
+genclient/**
+genserver/**
+download/**
+stage/**
+__pycache__/**
