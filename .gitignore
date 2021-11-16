@@ -4,3 +4,4 @@ genserver/**
 download/**
 stage/**
 __pycache__/**
+pa_location.txt
