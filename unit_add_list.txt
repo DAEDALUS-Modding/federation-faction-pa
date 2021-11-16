@@ -1,0 +1,4 @@
+light_infantry/conscript/
+light_infantry/fac_light_infantry/
+light_infantry/gust/
+light_infantry/light_inf_fab/
