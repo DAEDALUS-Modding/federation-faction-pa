@@ -5,9 +5,7 @@ import json
 
 import paeiou
 
-
-with open("pa_location.txt") as infile:
-        pa_path = os.path.join(infile.readline(), "media/")
+from pa_location import pa_location
 
 gen = "gen"
 dl_path = "download"
@@ -39,7 +37,7 @@ def gen_unit_shadows():
         with open(out_filename, "w") as out:
             json.dump(unit, out)
 
-    paeiou.simulate_mod_mount(pa_path, mod_urls, dl_path, stage_path)
+    paeiou.simulate_mod_mount(pa_location, mod_urls, dl_path, stage_path)
 
 
     # MLA and Legion Commanders may both build the Federation Factories
@@ -59,11 +57,11 @@ def main():
         mod_id = "com.pa.daedalus.federat", 
         paeiou_unit_path = "PAEIOU_units/", 
         unit_add_list = "unit_add_list.txt", 
-        output_path = "",
+        output_path = "gen/",
         mod_prefix = "federat",
         server = True,
         client = False,
-        pa_path = pa_path
+        pa_path = pa_location
     )
     gen_unit_shadows()
 
