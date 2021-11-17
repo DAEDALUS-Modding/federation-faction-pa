@@ -2,11 +2,11 @@
     "ammo_id": "{ammo.json}",
     "auto_attack": true,
     "base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
-    "idle_aim_delay": 1.0,
+    "idle_aim_delay": 0.5,
     "max_range": 80,
     "pitch_range": 40,
     "pitch_rate": 180,
-    "rate_of_fire": 0.5,
+    "rate_of_fire": 0.6,
     "target_layers": [
         "WL_LandHorizontal",
         "WL_WaterSurface",
@@ -14,5 +14,5 @@
         "WL_Seafloor"
     ],
     "yaw_range": 180,
-    "yaw_rate": 180
+    "yaw_rate": 250
 }

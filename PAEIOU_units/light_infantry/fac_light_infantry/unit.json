@@ -220,6 +220,7 @@
     ],
     "unit_name": "Bot Factory",
     "unit_types": [
+        "UNITTYPE_Custom4",
         "UNITTYPE_Factory",
         "UNITTYPE_Construction",
         "UNITTYPE_Land",
