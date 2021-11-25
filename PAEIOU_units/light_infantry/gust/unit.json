@@ -51,7 +51,7 @@
             "idle": "{anim_idle.papa}"
         },
         "animtree": "/pa/anim/anim_trees/bipedal_mech_anim_tree.json",
-        "walk_speed": 4
+        "walk_speed": 3
     },
     "navigation": {
         "type": "land-small",
