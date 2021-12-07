@@ -5,3 +5,4 @@ download/**
 stage/**
 __pycache__/**
 pa_location.py
+tmp_ignore/**
