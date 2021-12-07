@@ -1,0 +1,33 @@
+{
+    "blend_root": {
+        "type": "unit_state",
+        "nodes": {
+            "being_built": {
+                "type": "bind_pose"
+            },
+            "living": {
+                "type": "sequence",
+                "entries": [
+                    {
+                        "type": "sequence_entry",
+                        "name": "idle",
+                        "node": {
+                            "type": "bind_pose"
+                        }
+                    }
+                ],
+                "transition_seek": {
+                    "func": "has_build_target",
+                    "true_target": "build_loop",
+                    "false_target": "idle"
+                }
+            },
+            "dead": {
+                "type": "bind_pose"
+            },
+            "ghost": {
+                "type": "bind_pose"
+            }
+        }
+    }
+}

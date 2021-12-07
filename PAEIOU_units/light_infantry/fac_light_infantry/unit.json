@@ -39,122 +39,6 @@
         }
     },
     "factory_cooldown_time": 3,
-    "fx_offsets": [
-        {
-            "bone": "socket_muzzle01",
-            "filename": "/pa/effects/specs/fab_spray.pfx",
-            "offset": [
-                0,
-                0,
-                0
-            ],
-            "orientation": [
-                0,
-                0,
-                0
-            ],
-            "type": "build"
-        },
-        {
-            "bone": "socket_muzzle02",
-            "filename": "/pa/effects/specs/fab_spray.pfx",
-            "offset": [
-                0,
-                0,
-                0
-            ],
-            "orientation": [
-                0,
-                0,
-                0
-            ],
-            "type": "build"
-        }
-    ],
-    "headlights": [
-        {
-            "color": [
-                1.5,
-                1.52,
-                1.6
-            ],
-            "debug": false,
-            "far_distance": 20.0,
-            "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
-            "intensity": 2.0,
-            "near_distance": 5.0,
-            "near_height": 12.0,
-            "near_width": 12.0,
-            "offset": [
-                -8.1,
-                0.0,
-                10.58
-            ],
-            "orientation": [
-                45.0,
-                0.0,
-                0.0
-            ]
-        }
-    ],
-    "lamps": [
-        {
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 2.0,
-            "offset": [
-                -8.1,
-                0.0,
-                10.0
-            ],
-            "radius": 4.0
-        },
-        {
-            "color": [
-                1.0,
-                1.0,
-                1.0
-            ],
-            "intensity": 2.0,
-            "offset": [
-                -8.1,
-                0.0,
-                11.4
-            ],
-            "radius": 4.0
-        },
-        {
-            "color": [
-                0.1,
-                1.0,
-                0.1
-            ],
-            "intensity": 2.0,
-            "offset": [
-                12.63,
-                0.0,
-                9.15
-            ],
-            "radius": 8.0
-        },
-        {
-            "color": [
-                1.0,
-                0.0,
-                0.0
-            ],
-            "intensity": 2.0,
-            "offset": [
-                -15.47,
-                0.0,
-                9.94
-            ],
-            "radius": 4.0
-        }
-    ],
     "max_health": 6000,
     "mesh_bounds": [
         29.5,
@@ -163,14 +47,10 @@
     ],
     "model": {
         "animations": {
-            "build_end": "/pa/units/land/bot_factory/bot_factory_anim_end.papa",
-            "build_loop": "/pa/units/land/bot_factory/bot_factory_anim_build.papa",
-            "build_start": "/pa/units/land/bot_factory/bot_factory_anim_start.papa",
-            "idle": "/pa/units/land/bot_factory/bot_factory_anim_build.papa"
+            "idle": "{infantry_yard_spin.papa}"
         },
-        "animtree": "/pa/anim/anim_trees/factory_anim_tree.json",
-        "filename": "/pa/units/land/bot_factory/bot_factory.papa",
-        "skirt_decal": "/pa/effects/specs/skirt_bot.json"
+        "animtree": "/pa/anim/anim_trees/simple_building_anim_tree.json",
+        "filename": "{model.papa}"
     },
     "physics": {
         "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"
